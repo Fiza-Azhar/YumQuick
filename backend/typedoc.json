@@ -1,0 +1,7 @@
+{
+    "entryPoints": ["src/main.ts", "src/**/*.ts"],  // Point to the src directory
+    "out": "docs",
+    "excludePrivate": true,
+    "excludeExternals": true
+  }
+  
