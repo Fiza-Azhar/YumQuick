@@ -1,0 +1,191 @@
+.container {
+  position: relative;
+  background-image: url('../../assets/bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+h4 {
+  color: darkgreen; /* Change the color to dark green */
+  text-align: center; /* Center the heading horizontally */
+  font-size: 2em;
+  margin-top: 30px !important;
+  margin-bottom: 0px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-button {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.tab-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background-color: #86ad56;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.tab.active {
+  background-color: white;
+  color: #86ad56;
+}
+
+.recipe-list4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px; /* Add space between heading and recipe list */
+  width: 80%; /* Ensure the list takes full width */
+}
+
+.recipe-item input[type="checkbox"] {
+  width: 20px; /* Adjust width as desired */
+  height: 20px; /* Adjust height as desired */
+  margin-right: 20px; /* Maintain spacing */
+}
+
+.checkbox2{
+  margin-right: 20px;
+}
+
+.recipe-item4 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(204, 219, 169, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%; /* Ensure each item takes full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.recipe-image4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.recipe-name4 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.get-grocery-button {
+  background-color: #86ad56;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px); /* Adjust width as needed */
+  max-width: 200px; /* Optional: set a max width */
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-group button {
+  background-color: #86ad56;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.recipe-input4 {
+  width: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 20%; /* Start from the top */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Start content at the top */
+  color: black;
+}
