@@ -1,0 +1,23 @@
+adb install -r android/app/build/outputs/apk/release/app-release.apk
+
+http://192.168.16.112:3000/api/auth/signup
+{
+    "name":"Fiza Azhar",
+    "email": "fizaazhar54@gmail.com",
+    "password": "fiz54@gmail"
+}
+
+
+
+http://localhost:3000/api/auth/login
+{
+    "email": "contactabdullahaamir@gmail.com",
+    
+    "password": "Ab123@gmail"
+}
+
+http://localhost:3000/api/auth/verify-email
+{
+  "email": "contactabdullahaamir@gmail.com",
+  "code": "655899"
+}
